@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors")
-app.use(cors());
-const app = express();
 
+const app = express();
+app.use(cors());
 const socketio = require("socket.io");
 const http = require("http");
 const {
